@@ -1,4 +1,4 @@
-# 🌟 Elementos Game
+# ELEMENTOS 💧🌱🔥
 
 Juego educativo sobre los elementos de la tabla periódica. Hecho con HTML, CSS y JavaScript.
 
