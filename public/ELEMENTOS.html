@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>ELEMENTOS</title>
+    <link rel='stylesheet' href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<html>
+    <body>
+        <section id="seleccionar-pets">
+            <h1 class="titulo">ELEMENTOS💧🌱🔥</h1>
+
+            <h2 class="subtitulo">Elige tu Pet</h2>
+
+            <div id='contenedor-tarjetas' class='tarjetas'>
+        
+            </div>
+            
+            <button id="boton-pets">Seleccionar</button>
+         </section>
+
+        <section id="ver-mapa" style="display: none;">
+            <h2 class="subtitulo">Recorre el mapa con tu Pet</h2>
+            <canvas id="mapa"></canvas>
+            <button 
+                ontouchend="detenerMovimiento()"
+                onmouseup="detenerMovimiento()" 
+                onmousedown="moverArriba()"
+                ontouchstart="moverArriba()"
+            > ↑ </button>
+            <div>
+                <button 
+                    ontouchend="detenerMovimiento()" 
+                    onmouseup="detenerMovimiento()" 
+                    onmousedown="moverIzquierda()"
+                    ontouchstart="moverIzquierda()"
+                > ← </button>
+                <button 
+                    ontouchend="detenerMovimiento()"
+                    onmouseup="detenerMovimiento()"
+                    onmousedown="moverAbajo()"
+                    ontouchstart="moverAbajo()"
+                > ↓ </button>
+                <button
+                    ontouchend="detenerMovimiento()"
+                    onmouseup="detenerMovimiento()" 
+                    onmousedown="moverDerecha()"
+                    ontouchstart="moverDerecha()"
+                >  → </button>
+            </div>
+        </section>
+
+        <section id="seleccionar-ataque" style="display: none;">
+            <h1 class="titulo">ELEMENTOS💧🌱🔥</h1>
+
+            <h2>Elige tu ataque:</h2>
+
+        <div id="contenedor-ataques" class="tarjetas-ataques"></div>
+        
+            <div id="mensajes">
+                <p id="resultado">Mucha suerte!</p>
+                <section id="reiniciar" style="display: none;">
+                    <button id="boton-reiniciar">Reiniciar</button>
+                </section>
+            </div> 
+                
+            <div class="ataques">
+                <div class="ataques-jugador">
+                    <p id="vidas-jugador">0</p>
+                    <p id="pet-jugador"></p>
+                    <div id="ataques-del-jugador"></div>
+                </div>     
+                <div class="ataques-enemigo">
+                    <p id="vidas-enemigo">0</p>
+                    <p id="pet-enemigo"></p>
+                <div id="ataques-del-enemigo"></div>
+            </div>
+        </div>
+        </section>     
+    <script src="./js/ELEMENTOS.js"></script>
+    </body>
+</html>
+
