@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body {
+    font-family: "Lilita One", sans-serif;
+    background-color: #667766
+}     
+
+#seleccionar-pets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    font-family: "Lilita One", sans-serif;
+}
+
+.subtitulo {
+    color: rgb(0, 0, 0);
+    font-size: 40px
+}
+
+.tarjetas, .tarjeta-ataques {
+    display: flex;
+    gap: 10px
+}
+
+.tarjeta-de-elementos {
+    width: 150px;
+    height: 100px;
+    background: #FEF3E2;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgb(0, 0, 0);
+}
+
+.tarjeta-de-elementos img{
+    width: 80px;
+}
+
+#boton-pets {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #BEC6A0;
+    border: 2px solid;
+    color: rgb(0, 0, 0);
+    font-family: "Lilita One", sans-serif;
+    margin-top: 25px;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    background-color: rgba(85, 178, 255, 0.4);
+}
+
+#seleccionar-ataque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque {
+    background: #FEF3E2;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: black;
+    width: 80px;
+    color: rgb(0, 0, 0);
+    font-family: "Lilita One", sans-serif;
+}
+
+#mensajes {
+    width: 300px;
+    background-color: #BEC6A0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boton-reiniciar {
+    border: 2px solid;
+    background-color: #BEC6A0;
+    font-family: "Lilita One", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.ataques {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+ 
+#vidas-jugador, #vidas-enemigo {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.ataques-jugador, .ataques-enemigo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+#ver-mapa {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ver-mapa button {
+    width: 75px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #BEC6A0;
+    border: 2px solid;
+    color: rgb(0, 0, 0);
+    font-family: "Lilita One", sans-serif;
+    margin-top: 25px;
+    margin: 3px;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 560px) {
+    .tarjetas, .tarjetas-ataque {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 300px) {
+    #ver-mapa div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
