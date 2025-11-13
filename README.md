@@ -14,7 +14,10 @@ Abrí el juego en GitHub Pages 👉 [Jugar ahora](https://wsebastianpds.github.i
 Aprender los elementos de la tabla periódica jugando.
 
 ## 📸 Captura de pantalla
-![Captura](fotos/captura.png) <!-- poné una imagen del juego acá -->
+![Captura](fotos/captura.png)
+![Captura](fotos/elementos1.png) 
+![Captura](fotos/elementos2.png) 
+![Captura](fotos/elementos3.png) 
 
 ## ✍️ Autor
 William Sebastian Pinto Da Silva
