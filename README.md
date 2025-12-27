@@ -35,7 +35,7 @@ El juego está pensado para ser simple, intuitivo y educativo.
 ## 🛠️ Tecnologías utilizadas
 
 - HTML5
-- CSS3
+- CSS
 - JavaScript
 - GitHub Pages
 
@@ -72,7 +72,9 @@ El juego está pensado para ser simple, intuitivo y educativo.
 ## 📌 Estado del proyecto
 
 ✔️ Funcional  
+
 ✔️ Publicado  
+
 ✔️ Proyecto personal de práctica  
 
 ---
