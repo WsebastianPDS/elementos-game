@@ -54,6 +54,8 @@ El juego está pensado para ser simple, intuitivo y educativo.
 
 └── README.md
 
+---
+
 ## 📸 Captura de pantalla
 
 <p align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
