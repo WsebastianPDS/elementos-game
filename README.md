@@ -82,7 +82,7 @@ El juego está pensado para ser simple, intuitivo y educativo.
 ## ✍️ Autor
 
 **William Sebastian Pinto Da Silva**  
-Developer Jr. | QA Tester Jr.
+Junior Backend Developer | C# · .NET · SQL | QA Testing
 
 ---
 
