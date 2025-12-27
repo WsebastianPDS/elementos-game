@@ -1,17 +1,58 @@
 # ELEMENTOS 💧🌱🔥
 
-Juego interactivo sobre los elementos de la tabla periódica. Hecho con HTML, CSS y JavaScript.
+Juego interactivo educativo basado en los **elementos de la tabla periódica**, desarrollado con **HTML, CSS y JavaScript**.
 
-## 🎮 ¿Cómo jugar?
-Abrí el juego en GitHub Pages 👉 [Jugar ahora](https://wsebastianpds.github.io/elementos-game/)
+El proyecto combina aprendizaje y juego, permitiendo reforzar conceptos básicos de química de manera dinámica.
 
-## 🛠️ Tecnologías usadas
-- HTML
-- CSS
+---
+
+## 🎮 Demo
+
+👉 Jugar en GitHub Pages:  
+https://wsebastianpds.github.io/elementos-game/
+
+---
+
+## 🧠 Objetivo del proyecto
+
+- Aprender y reforzar conocimientos sobre los elementos de la tabla periódica
+- Practicar **lógica en JavaScript**
+- Trabajar interacción usuario–interfaz
+- Desarrollar un proyecto web completo desde cero
+
+---
+
+## 🕹️ ¿Cómo jugar?
+
+- Interactuá con los distintos elementos
+- Explorá sus características
+- Avanzá a través de las pantallas del juego
+
+El juego está pensado para ser simple, intuitivo y educativo.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- HTML5
+- CSS3
 - JavaScript
+- GitHub Pages
 
-## 🧠 Objetivo
-Aprender los elementos de la tabla periódica jugando.
+---
+
+## 📂 Estructura del proyecto
+/
+
+├── index.html
+
+├── styles.css
+
+├── script.js
+
+├── fotos/
+
+└── README.md
 
 ## 📸 Captura de pantalla
 
@@ -24,6 +65,21 @@ Aprender los elementos de la tabla periódica jugando.
   <img src="fotos/elementos3.png" alt="Vista del juego 3" width="310" height="200" style="object-fit: cover; border-radius: 8px;"/>
 </p>
 
-## ✍️ Autor
-William Sebastian Pinto Da Silva
+---
 
+## 📌 Estado del proyecto
+
+✔️ Funcional  
+✔️ Publicado  
+✔️ Proyecto personal de práctica  
+
+---
+
+## ✍️ Autor
+
+**William Sebastian Pinto Da Silva**  
+Developer Jr. | QA Tester Jr.
+
+---
+
+> Proyecto personal con fines educativos.
